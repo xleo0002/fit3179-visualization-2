@@ -1,0 +1,48 @@
+year,state,type,beds
+2022,Johor,All,5433
+2022,Johor,MOH Hospital,4301
+2022,Johor,Special Medical Institutions,1132
+2022,Kedah,All,2762
+2022,Kedah,MOH Hospital,2762
+2022,Kelantan,All,2970
+2022,Kelantan,MOH Hospital,2141
+2022,Kelantan,Non-MOH Hospital,829
+2022,Melaka,All,1454
+2022,Melaka,MOH Hospital,1310
+2022,Melaka,Non-MOH Hospital,144
+2022,Negeri Sembilan,All,1977
+2022,Negeri Sembilan,MOH Hospital,1941
+2022,Negeri Sembilan,Non-MOH Hospital,36
+2022,Pahang,All,2681
+2022,Pahang,MOH Hospital,2356
+2022,Pahang,Non-MOH Hospital,325
+2022,Perak,All,5887
+2022,Perak,MOH Hospital,3977
+2022,Perak,Non-MOH Hospital,110
+2022,Perak,Special Medical Institutions,1800
+2022,Perlis,All,508
+2022,Perlis,MOH Hospital,508
+2022,Pulau Pinang,All,2138
+2022,Pulau Pinang,MOH Hospital,2138
+2022,Sabah,All,5053
+2022,Sabah,MOH Hospital,4053
+2022,Sabah,Non-MOH Hospital,40
+2022,Sabah,Special Medical Institutions,960
+2022,Sarawak,All,4119
+2022,Sarawak,MOH Hospital,3653
+2022,Sarawak,Special Medical Institutions,466
+2022,Selangor,All,7640
+2022,Selangor,MOH Hospital,6651
+2022,Selangor,Non-MOH Hospital,897
+2022,Selangor,Special Medical Institutions,92
+2022,Terengganu,All,1730
+2022,Terengganu,MOH Hospital,1730
+2022,Kuala Lumpur,All,4874
+2022,Kuala Lumpur,MOH Hospital,1553
+2022,Kuala Lumpur,Non-MOH Hospital,2437
+2022,Kuala Lumpur,Special Medical Institutions,884
+2022,Labuan,All,122
+2022,Labuan,MOH Hospital,122
+2022,Putrajaya,All,637
+2022,Putrajaya,MOH Hospital,385
+2022,Putrajaya,Special Medical Institutions,252

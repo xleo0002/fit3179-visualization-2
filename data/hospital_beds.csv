@@ -1,0 +1,677 @@
+date,state,district,type,beds
+2022,Johor,All Districts,All,5433
+2022,Johor,All Districts,MOH Hospital,4301
+2022,Johor,All Districts,Non-MOH Hospital,0
+2022,Johor,All Districts,Special Medical Institutions,1132
+2022,Johor,Batu Pahat,All,610
+2022,Johor,Batu Pahat,MOH Hospital,610
+2022,Johor,Batu Pahat,Non-MOH Hospital,0
+2022,Johor,Batu Pahat,Special Medical Institutions,0
+2022,Johor,Johor Bahru,All,3042
+2022,Johor,Johor Bahru,MOH Hospital,1910
+2022,Johor,Johor Bahru,Non-MOH Hospital,0
+2022,Johor,Johor Bahru,Special Medical Institutions,1132
+2022,Johor,Kluang,All,382
+2022,Johor,Kluang,MOH Hospital,382
+2022,Johor,Kluang,Non-MOH Hospital,0
+2022,Johor,Kluang,Special Medical Institutions,0
+2022,Johor,Kota Tinggi,All,158
+2022,Johor,Kota Tinggi,MOH Hospital,158
+2022,Johor,Kota Tinggi,Non-MOH Hospital,0
+2022,Johor,Kota Tinggi,Special Medical Institutions,0
+2022,Johor,Kulaijaya,All,93
+2022,Johor,Kulaijaya,MOH Hospital,93
+2022,Johor,Kulaijaya,Non-MOH Hospital,0
+2022,Johor,Kulaijaya,Special Medical Institutions,0
+2022,Johor,Ledang,All,69
+2022,Johor,Ledang,MOH Hospital,69
+2022,Johor,Ledang,Non-MOH Hospital,0
+2022,Johor,Ledang,Special Medical Institutions,0
+2022,Johor,Mersing,All,70
+2022,Johor,Mersing,MOH Hospital,70
+2022,Johor,Mersing,Non-MOH Hospital,0
+2022,Johor,Mersing,Special Medical Institutions,0
+2022,Johor,Muar,All,575
+2022,Johor,Muar,MOH Hospital,575
+2022,Johor,Muar,Non-MOH Hospital,0
+2022,Johor,Muar,Special Medical Institutions,0
+2022,Johor,Pontian,All,120
+2022,Johor,Pontian,MOH Hospital,120
+2022,Johor,Pontian,Non-MOH Hospital,0
+2022,Johor,Pontian,Special Medical Institutions,0
+2022,Johor,Segamat,All,314
+2022,Johor,Segamat,MOH Hospital,314
+2022,Johor,Segamat,Non-MOH Hospital,0
+2022,Johor,Segamat,Special Medical Institutions,0
+2022,Kedah,All Districts,All,2762
+2022,Kedah,All Districts,MOH Hospital,2762
+2022,Kedah,All Districts,Non-MOH Hospital,0
+2022,Kedah,All Districts,Special Medical Institutions,0
+2022,Kedah,Baling,All,115
+2022,Kedah,Baling,MOH Hospital,115
+2022,Kedah,Baling,Non-MOH Hospital,0
+2022,Kedah,Baling,Special Medical Institutions,0
+2022,Kedah,Bandar Baharu,All,0
+2022,Kedah,Bandar Baharu,MOH Hospital,0
+2022,Kedah,Bandar Baharu,Non-MOH Hospital,0
+2022,Kedah,Bandar Baharu,Special Medical Institutions,0
+2022,Kedah,Kota Setar,All,1108
+2022,Kedah,Kota Setar,MOH Hospital,1108
+2022,Kedah,Kota Setar,Non-MOH Hospital,0
+2022,Kedah,Kota Setar,Special Medical Institutions,0
+2022,Kedah,Kuala Muda,All,703
+2022,Kedah,Kuala Muda,MOH Hospital,703
+2022,Kedah,Kuala Muda,Non-MOH Hospital,0
+2022,Kedah,Kuala Muda,Special Medical Institutions,0
+2022,Kedah,Kubang Pasu,All,91
+2022,Kedah,Kubang Pasu,MOH Hospital,91
+2022,Kedah,Kubang Pasu,Non-MOH Hospital,0
+2022,Kedah,Kubang Pasu,Special Medical Institutions,0
+2022,Kedah,Kulim,All,320
+2022,Kedah,Kulim,MOH Hospital,320
+2022,Kedah,Kulim,Non-MOH Hospital,0
+2022,Kedah,Kulim,Special Medical Institutions,0
+2022,Kedah,Langkawi,All,163
+2022,Kedah,Langkawi,MOH Hospital,163
+2022,Kedah,Langkawi,Non-MOH Hospital,0
+2022,Kedah,Langkawi,Special Medical Institutions,0
+2022,Kedah,Padang Terap,All,80
+2022,Kedah,Padang Terap,MOH Hospital,80
+2022,Kedah,Padang Terap,Non-MOH Hospital,0
+2022,Kedah,Padang Terap,Special Medical Institutions,0
+2022,Kedah,Pendang,All,0
+2022,Kedah,Pendang,MOH Hospital,0
+2022,Kedah,Pendang,Non-MOH Hospital,0
+2022,Kedah,Pendang,Special Medical Institutions,0
+2022,Kedah,Pokok Sena,All,0
+2022,Kedah,Pokok Sena,MOH Hospital,0
+2022,Kedah,Pokok Sena,Non-MOH Hospital,0
+2022,Kedah,Pokok Sena,Special Medical Institutions,0
+2022,Kedah,Sik,All,93
+2022,Kedah,Sik,MOH Hospital,93
+2022,Kedah,Sik,Non-MOH Hospital,0
+2022,Kedah,Sik,Special Medical Institutions,0
+2022,Kedah,Yan,All,89
+2022,Kedah,Yan,MOH Hospital,89
+2022,Kedah,Yan,Non-MOH Hospital,0
+2022,Kedah,Yan,Special Medical Institutions,0
+2022,Kelantan,All Districts,All,2970
+2022,Kelantan,All Districts,MOH Hospital,2141
+2022,Kelantan,All Districts,Non-MOH Hospital,829
+2022,Kelantan,All Districts,Special Medical Institutions,0
+2022,Kelantan,Bachok,All,0
+2022,Kelantan,Bachok,MOH Hospital,0
+2022,Kelantan,Bachok,Non-MOH Hospital,0
+2022,Kelantan,Bachok,Special Medical Institutions,0
+2022,Kelantan,Gua Musang,All,90
+2022,Kelantan,Gua Musang,MOH Hospital,90
+2022,Kelantan,Gua Musang,Non-MOH Hospital,0
+2022,Kelantan,Gua Musang,Special Medical Institutions,0
+2022,Kelantan,Jeli,All,80
+2022,Kelantan,Jeli,MOH Hospital,80
+2022,Kelantan,Jeli,Non-MOH Hospital,0
+2022,Kelantan,Jeli,Special Medical Institutions,0
+2022,Kelantan,Kota Bharu,All,1811
+2022,Kelantan,Kota Bharu,MOH Hospital,982
+2022,Kelantan,Kota Bharu,Non-MOH Hospital,829
+2022,Kelantan,Kota Bharu,Special Medical Institutions,0
+2022,Kelantan,Kuala Krai,All,424
+2022,Kelantan,Kuala Krai,MOH Hospital,424
+2022,Kelantan,Kuala Krai,Non-MOH Hospital,0
+2022,Kelantan,Kuala Krai,Special Medical Institutions,0
+2022,Kelantan,Machang,All,90
+2022,Kelantan,Machang,MOH Hospital,90
+2022,Kelantan,Machang,Non-MOH Hospital,0
+2022,Kelantan,Machang,Special Medical Institutions,0
+2022,Kelantan,Pasir Mas,All,120
+2022,Kelantan,Pasir Mas,MOH Hospital,120
+2022,Kelantan,Pasir Mas,Non-MOH Hospital,0
+2022,Kelantan,Pasir Mas,Special Medical Institutions,0
+2022,Kelantan,Pasir Puteh,All,90
+2022,Kelantan,Pasir Puteh,MOH Hospital,90
+2022,Kelantan,Pasir Puteh,Non-MOH Hospital,0
+2022,Kelantan,Pasir Puteh,Special Medical Institutions,0
+2022,Kelantan,Tanah Merah,All,146
+2022,Kelantan,Tanah Merah,MOH Hospital,146
+2022,Kelantan,Tanah Merah,Non-MOH Hospital,0
+2022,Kelantan,Tanah Merah,Special Medical Institutions,0
+2022,Kelantan,Tumpat,All,119
+2022,Kelantan,Tumpat,MOH Hospital,119
+2022,Kelantan,Tumpat,Non-MOH Hospital,0
+2022,Kelantan,Tumpat,Special Medical Institutions,0
+2022,Melaka,All Districts,All,1454
+2022,Melaka,All Districts,MOH Hospital,1310
+2022,Melaka,All Districts,Non-MOH Hospital,144
+2022,Melaka,All Districts,Special Medical Institutions,0
+2022,Melaka,Alor Gajah,All,106
+2022,Melaka,Alor Gajah,MOH Hospital,106
+2022,Melaka,Alor Gajah,Non-MOH Hospital,0
+2022,Melaka,Alor Gajah,Special Medical Institutions,0
+2022,Melaka,Jasin,All,103
+2022,Melaka,Jasin,MOH Hospital,103
+2022,Melaka,Jasin,Non-MOH Hospital,0
+2022,Melaka,Jasin,Special Medical Institutions,0
+2022,Melaka,Melaka Tengah,All,1245
+2022,Melaka,Melaka Tengah,MOH Hospital,1101
+2022,Melaka,Melaka Tengah,Non-MOH Hospital,144
+2022,Melaka,Melaka Tengah,Special Medical Institutions,0
+2022,Negeri Sembilan,All Districts,All,1977
+2022,Negeri Sembilan,All Districts,MOH Hospital,1941
+2022,Negeri Sembilan,All Districts,Non-MOH Hospital,36
+2022,Negeri Sembilan,All Districts,Special Medical Institutions,0
+2022,Negeri Sembilan,Jelebu,All,76
+2022,Negeri Sembilan,Jelebu,MOH Hospital,76
+2022,Negeri Sembilan,Jelebu,Non-MOH Hospital,0
+2022,Negeri Sembilan,Jelebu,Special Medical Institutions,0
+2022,Negeri Sembilan,Jempol,All,108
+2022,Negeri Sembilan,Jempol,MOH Hospital,108
+2022,Negeri Sembilan,Jempol,Non-MOH Hospital,0
+2022,Negeri Sembilan,Jempol,Special Medical Institutions,0
+2022,Negeri Sembilan,Kuala Pilah,All,314
+2022,Negeri Sembilan,Kuala Pilah,MOH Hospital,314
+2022,Negeri Sembilan,Kuala Pilah,Non-MOH Hospital,0
+2022,Negeri Sembilan,Kuala Pilah,Special Medical Institutions,0
+2022,Negeri Sembilan,Port Dickson,All,116
+2022,Negeri Sembilan,Port Dickson,MOH Hospital,116
+2022,Negeri Sembilan,Port Dickson,Non-MOH Hospital,0
+2022,Negeri Sembilan,Port Dickson,Special Medical Institutions,0
+2022,Negeri Sembilan,Rembau,All,76
+2022,Negeri Sembilan,Rembau,MOH Hospital,76
+2022,Negeri Sembilan,Rembau,Non-MOH Hospital,0
+2022,Negeri Sembilan,Rembau,Special Medical Institutions,0
+2022,Negeri Sembilan,Seremban,All,1143
+2022,Negeri Sembilan,Seremban,MOH Hospital,1143
+2022,Negeri Sembilan,Seremban,Non-MOH Hospital,0
+2022,Negeri Sembilan,Seremban,Special Medical Institutions,0
+2022,Negeri Sembilan,Tampin,All,144
+2022,Negeri Sembilan,Tampin,MOH Hospital,108
+2022,Negeri Sembilan,Tampin,Non-MOH Hospital,36
+2022,Negeri Sembilan,Tampin,Special Medical Institutions,0
+2022,Pahang,All Districts,All,2681
+2022,Pahang,All Districts,MOH Hospital,2356
+2022,Pahang,All Districts,Non-MOH Hospital,325
+2022,Pahang,All Districts,Special Medical Institutions,0
+2022,Pahang,Bentong,All,152
+2022,Pahang,Bentong,MOH Hospital,152
+2022,Pahang,Bentong,Non-MOH Hospital,0
+2022,Pahang,Bentong,Special Medical Institutions,0
+2022,Pahang,Bera,All,40
+2022,Pahang,Bera,MOH Hospital,40
+2022,Pahang,Bera,Non-MOH Hospital,0
+2022,Pahang,Bera,Special Medical Institutions,0
+2022,Pahang,Cameron Highlands,All,40
+2022,Pahang,Cameron Highlands,MOH Hospital,40
+2022,Pahang,Cameron Highlands,Non-MOH Hospital,0
+2022,Pahang,Cameron Highlands,Special Medical Institutions,0
+2022,Pahang,Jerantut,All,77
+2022,Pahang,Jerantut,MOH Hospital,77
+2022,Pahang,Jerantut,Non-MOH Hospital,0
+2022,Pahang,Jerantut,Special Medical Institutions,0
+2022,Pahang,Kuantan,All,1176
+2022,Pahang,Kuantan,MOH Hospital,851
+2022,Pahang,Kuantan,Non-MOH Hospital,325
+2022,Pahang,Kuantan,Special Medical Institutions,0
+2022,Pahang,Lipis,All,168
+2022,Pahang,Lipis,MOH Hospital,168
+2022,Pahang,Lipis,Non-MOH Hospital,0
+2022,Pahang,Lipis,Special Medical Institutions,0
+2022,Pahang,Maran,All,70
+2022,Pahang,Maran,MOH Hospital,70
+2022,Pahang,Maran,Non-MOH Hospital,0
+2022,Pahang,Maran,Special Medical Institutions,0
+2022,Pahang,Pekan,All,110
+2022,Pahang,Pekan,MOH Hospital,110
+2022,Pahang,Pekan,Non-MOH Hospital,0
+2022,Pahang,Pekan,Special Medical Institutions,0
+2022,Pahang,Raub,All,89
+2022,Pahang,Raub,MOH Hospital,89
+2022,Pahang,Raub,Non-MOH Hospital,0
+2022,Pahang,Raub,Special Medical Institutions,0
+2022,Pahang,Rompin,All,109
+2022,Pahang,Rompin,MOH Hospital,109
+2022,Pahang,Rompin,Non-MOH Hospital,0
+2022,Pahang,Rompin,Special Medical Institutions,0
+2022,Pahang,Temerloh,All,650
+2022,Pahang,Temerloh,MOH Hospital,650
+2022,Pahang,Temerloh,Non-MOH Hospital,0
+2022,Pahang,Temerloh,Special Medical Institutions,0
+2022,Perak,All Districts,All,5887
+2022,Perak,All Districts,MOH Hospital,3977
+2022,Perak,All Districts,Non-MOH Hospital,110
+2022,Perak,All Districts,Special Medical Institutions,1800
+2022,Perak,Batang Padang (Tapah),All,350
+2022,Perak,Batang Padang (Tapah),MOH Hospital,350
+2022,Perak,Batang Padang (Tapah),Non-MOH Hospital,0
+2022,Perak,Batang Padang (Tapah),Special Medical Institutions,0
+2022,Perak,Hilir Perak,All,548
+2022,Perak,Hilir Perak,MOH Hospital,548
+2022,Perak,Hilir Perak,Non-MOH Hospital,0
+2022,Perak,Hilir Perak,Special Medical Institutions,0
+2022,Perak,Hulu Perak,All,75
+2022,Perak,Hulu Perak,MOH Hospital,75
+2022,Perak,Hulu Perak,Non-MOH Hospital,0
+2022,Perak,Hulu Perak,Special Medical Institutions,0
+2022,Perak,Kampar,All,68
+2022,Perak,Kampar,MOH Hospital,68
+2022,Perak,Kampar,Non-MOH Hospital,0
+2022,Perak,Kampar,Special Medical Institutions,0
+2022,Perak,Kerian,All,100
+2022,Perak,Kerian,MOH Hospital,100
+2022,Perak,Kerian,Non-MOH Hospital,0
+2022,Perak,Kerian,Special Medical Institutions,0
+2022,Perak,Kinta (Ipoh),All,3354
+2022,Perak,Kinta (Ipoh),MOH Hospital,1554
+2022,Perak,Kinta (Ipoh),Non-MOH Hospital,0
+2022,Perak,Kinta (Ipoh),Special Medical Institutions,1800
+2022,Perak,Kuala Kangsar,All,229
+2022,Perak,Kuala Kangsar,MOH Hospital,229
+2022,Perak,Kuala Kangsar,Non-MOH Hospital,0
+2022,Perak,Kuala Kangsar,Special Medical Institutions,0
+2022,Perak,Larut & Matang (Taiping),All,698
+2022,Perak,Larut & Matang (Taiping),MOH Hospital,698
+2022,Perak,Larut & Matang (Taiping),Non-MOH Hospital,0
+2022,Perak,Larut & Matang (Taiping),Special Medical Institutions,0
+2022,Perak,Manjung (Sitiawan),All,415
+2022,Perak,Manjung (Sitiawan),MOH Hospital,305
+2022,Perak,Manjung (Sitiawan),Non-MOH Hospital,110
+2022,Perak,Manjung (Sitiawan),Special Medical Institutions,0
+2022,Perak,Perak Tengah,All,50
+2022,Perak,Perak Tengah,MOH Hospital,50
+2022,Perak,Perak Tengah,Non-MOH Hospital,0
+2022,Perak,Perak Tengah,Special Medical Institutions,0
+2022,Perlis,All Districts,All,508
+2022,Perlis,All Districts,MOH Hospital,508
+2022,Perlis,All Districts,Non-MOH Hospital,0
+2022,Perlis,All Districts,Special Medical Institutions,0
+2022,Perlis,Perlis,All,508
+2022,Perlis,Perlis,MOH Hospital,508
+2022,Perlis,Perlis,Non-MOH Hospital,0
+2022,Perlis,Perlis,Special Medical Institutions,0
+2022,Pulau Pinang,All Districts,All,2138
+2022,Pulau Pinang,All Districts,MOH Hospital,2138
+2022,Pulau Pinang,All Districts,Non-MOH Hospital,0
+2022,Pulau Pinang,All Districts,Special Medical Institutions,0
+2022,Pulau Pinang,Barat Daya,All,81
+2022,Pulau Pinang,Barat Daya,MOH Hospital,81
+2022,Pulau Pinang,Barat Daya,Non-MOH Hospital,0
+2022,Pulau Pinang,Barat Daya,Special Medical Institutions,0
+2022,Pulau Pinang,Seberang Perai Selatan,All,105
+2022,Pulau Pinang,Seberang Perai Selatan,MOH Hospital,105
+2022,Pulau Pinang,Seberang Perai Selatan,Non-MOH Hospital,0
+2022,Pulau Pinang,Seberang Perai Selatan,Special Medical Institutions,0
+2022,Pulau Pinang,Seberang Perai Tengah,All,655
+2022,Pulau Pinang,Seberang Perai Tengah,MOH Hospital,655
+2022,Pulau Pinang,Seberang Perai Tengah,Non-MOH Hospital,0
+2022,Pulau Pinang,Seberang Perai Tengah,Special Medical Institutions,0
+2022,Pulau Pinang,Seberang Perai Utara (Butterworth),All,134
+2022,Pulau Pinang,Seberang Perai Utara (Butterworth),MOH Hospital,134
+2022,Pulau Pinang,Seberang Perai Utara (Butterworth),Non-MOH Hospital,0
+2022,Pulau Pinang,Seberang Perai Utara (Butterworth),Special Medical Institutions,0
+2022,Pulau Pinang,Timur Laut (Georgetown),All,1163
+2022,Pulau Pinang,Timur Laut (Georgetown),MOH Hospital,1163
+2022,Pulau Pinang,Timur Laut (Georgetown),Non-MOH Hospital,0
+2022,Pulau Pinang,Timur Laut (Georgetown),Special Medical Institutions,0
+2022,Sabah,All Districts,All,5053
+2022,Sabah,All Districts,MOH Hospital,4053
+2022,Sabah,All Districts,Non-MOH Hospital,40
+2022,Sabah,All Districts,Special Medical Institutions,960
+2022,Sabah,Beaufort,All,275
+2022,Sabah,Beaufort,MOH Hospital,275
+2022,Sabah,Beaufort,Non-MOH Hospital,0
+2022,Sabah,Beaufort,Special Medical Institutions,0
+2022,Sabah,Beluran,All,52
+2022,Sabah,Beluran,MOH Hospital,52
+2022,Sabah,Beluran,Non-MOH Hospital,0
+2022,Sabah,Beluran,Special Medical Institutions,0
+2022,Sabah,Keningau,All,216
+2022,Sabah,Keningau,MOH Hospital,216
+2022,Sabah,Keningau,Non-MOH Hospital,0
+2022,Sabah,Keningau,Special Medical Institutions,0
+2022,Sabah,Kinabatangan,All,68
+2022,Sabah,Kinabatangan,MOH Hospital,68
+2022,Sabah,Kinabatangan,Non-MOH Hospital,0
+2022,Sabah,Kinabatangan,Special Medical Institutions,0
+2022,Sabah,Kota Belud,All,172
+2022,Sabah,Kota Belud,MOH Hospital,172
+2022,Sabah,Kota Belud,Non-MOH Hospital,0
+2022,Sabah,Kota Belud,Special Medical Institutions,0
+2022,Sabah,Kota Kinabalu,All,2175
+2022,Sabah,Kota Kinabalu,MOH Hospital,1175
+2022,Sabah,Kota Kinabalu,Non-MOH Hospital,40
+2022,Sabah,Kota Kinabalu,Special Medical Institutions,960
+2022,Sabah,Kota Marudu,All,97
+2022,Sabah,Kota Marudu,MOH Hospital,97
+2022,Sabah,Kota Marudu,Non-MOH Hospital,0
+2022,Sabah,Kota Marudu,Special Medical Institutions,0
+2022,Sabah,Kota Penyu,All,48
+2022,Sabah,Kota Penyu,MOH Hospital,48
+2022,Sabah,Kota Penyu,Non-MOH Hospital,0
+2022,Sabah,Kota Penyu,Special Medical Institutions,0
+2022,Sabah,Kudat,All,180
+2022,Sabah,Kudat,MOH Hospital,180
+2022,Sabah,Kudat,Non-MOH Hospital,0
+2022,Sabah,Kudat,Special Medical Institutions,0
+2022,Sabah,Kunak,All,48
+2022,Sabah,Kunak,MOH Hospital,48
+2022,Sabah,Kunak,Non-MOH Hospital,0
+2022,Sabah,Kunak,Special Medical Institutions,0
+2022,Sabah,Lahad Datu,All,268
+2022,Sabah,Lahad Datu,MOH Hospital,268
+2022,Sabah,Lahad Datu,Non-MOH Hospital,0
+2022,Sabah,Lahad Datu,Special Medical Institutions,0
+2022,Sabah,Nabawan,All,0
+2022,Sabah,Nabawan,MOH Hospital,0
+2022,Sabah,Nabawan,Non-MOH Hospital,0
+2022,Sabah,Nabawan,Special Medical Institutions,0
+2022,Sabah,Papar,All,77
+2022,Sabah,Papar,MOH Hospital,77
+2022,Sabah,Papar,Non-MOH Hospital,0
+2022,Sabah,Papar,Special Medical Institutions,0
+2022,Sabah,Penampang,All,0
+2022,Sabah,Penampang,MOH Hospital,0
+2022,Sabah,Penampang,Non-MOH Hospital,0
+2022,Sabah,Penampang,Special Medical Institutions,0
+2022,Sabah,Pitas,All,72
+2022,Sabah,Pitas,MOH Hospital,72
+2022,Sabah,Pitas,Non-MOH Hospital,0
+2022,Sabah,Pitas,Special Medical Institutions,0
+2022,Sabah,Putatan,All,0
+2022,Sabah,Putatan,MOH Hospital,0
+2022,Sabah,Putatan,Non-MOH Hospital,0
+2022,Sabah,Putatan,Special Medical Institutions,0
+2022,Sabah,Ranau,All,110
+2022,Sabah,Ranau,MOH Hospital,110
+2022,Sabah,Ranau,Non-MOH Hospital,0
+2022,Sabah,Ranau,Special Medical Institutions,0
+2022,Sabah,Sandakan,All,400
+2022,Sabah,Sandakan,MOH Hospital,400
+2022,Sabah,Sandakan,Non-MOH Hospital,0
+2022,Sabah,Sandakan,Special Medical Institutions,0
+2022,Sabah,Semporna,All,70
+2022,Sabah,Semporna,MOH Hospital,70
+2022,Sabah,Semporna,Non-MOH Hospital,0
+2022,Sabah,Semporna,Special Medical Institutions,0
+2022,Sabah,Sipitang,All,93
+2022,Sabah,Sipitang,MOH Hospital,93
+2022,Sabah,Sipitang,Non-MOH Hospital,0
+2022,Sabah,Sipitang,Special Medical Institutions,0
+2022,Sabah,Tambunan,All,49
+2022,Sabah,Tambunan,MOH Hospital,49
+2022,Sabah,Tambunan,Non-MOH Hospital,0
+2022,Sabah,Tambunan,Special Medical Institutions,0
+2022,Sabah,Tawau,All,431
+2022,Sabah,Tawau,MOH Hospital,431
+2022,Sabah,Tawau,Non-MOH Hospital,0
+2022,Sabah,Tawau,Special Medical Institutions,0
+2022,Sabah,Telupid,All,0
+2022,Sabah,Telupid,MOH Hospital,0
+2022,Sabah,Telupid,Non-MOH Hospital,0
+2022,Sabah,Telupid,Special Medical Institutions,0
+2022,Sabah,Tenom,All,70
+2022,Sabah,Tenom,MOH Hospital,70
+2022,Sabah,Tenom,Non-MOH Hospital,0
+2022,Sabah,Tenom,Special Medical Institutions,0
+2022,Sabah,Tongad,All,0
+2022,Sabah,Tongad,MOH Hospital,0
+2022,Sabah,Tongad,Non-MOH Hospital,0
+2022,Sabah,Tongad,Special Medical Institutions,0
+2022,Sabah,Tuaran,All,82
+2022,Sabah,Tuaran,MOH Hospital,82
+2022,Sabah,Tuaran,Non-MOH Hospital,0
+2022,Sabah,Tuaran,Special Medical Institutions,0
+2022,Sarawak,All Districts,All,4119
+2022,Sarawak,All Districts,MOH Hospital,3653
+2022,Sarawak,All Districts,Non-MOH Hospital,0
+2022,Sarawak,All Districts,Special Medical Institutions,466
+2022,Sarawak,Asajaya,All,0
+2022,Sarawak,Asajaya,MOH Hospital,0
+2022,Sarawak,Asajaya,Non-MOH Hospital,0
+2022,Sarawak,Asajaya,Special Medical Institutions,0
+2022,Sarawak,Bau,All,68
+2022,Sarawak,Bau,MOH Hospital,68
+2022,Sarawak,Bau,Non-MOH Hospital,0
+2022,Sarawak,Bau,Special Medical Institutions,0
+2022,Sarawak,Belaga,All,0
+2022,Sarawak,Belaga,MOH Hospital,0
+2022,Sarawak,Belaga,Non-MOH Hospital,0
+2022,Sarawak,Belaga,Special Medical Institutions,0
+2022,Sarawak,Beluru,All,0
+2022,Sarawak,Beluru,MOH Hospital,0
+2022,Sarawak,Beluru,Non-MOH Hospital,0
+2022,Sarawak,Beluru,Special Medical Institutions,0
+2022,Sarawak,Betong,All,48
+2022,Sarawak,Betong,MOH Hospital,48
+2022,Sarawak,Betong,Non-MOH Hospital,0
+2022,Sarawak,Betong,Special Medical Institutions,0
+2022,Sarawak,Bintulu,All,302
+2022,Sarawak,Bintulu,MOH Hospital,302
+2022,Sarawak,Bintulu,Non-MOH Hospital,0
+2022,Sarawak,Bintulu,Special Medical Institutions,0
+2022,Sarawak,Bukit Mabong,All,0
+2022,Sarawak,Bukit Mabong,MOH Hospital,0
+2022,Sarawak,Bukit Mabong,Non-MOH Hospital,0
+2022,Sarawak,Bukit Mabong,Special Medical Institutions,0
+2022,Sarawak,Dalat,All,8
+2022,Sarawak,Dalat,MOH Hospital,8
+2022,Sarawak,Dalat,Non-MOH Hospital,0
+2022,Sarawak,Dalat,Special Medical Institutions,0
+2022,Sarawak,Daro,All,46
+2022,Sarawak,Daro,MOH Hospital,46
+2022,Sarawak,Daro,Non-MOH Hospital,0
+2022,Sarawak,Daro,Special Medical Institutions,0
+2022,Sarawak,Julau,All,0
+2022,Sarawak,Julau,MOH Hospital,0
+2022,Sarawak,Julau,Non-MOH Hospital,0
+2022,Sarawak,Julau,Special Medical Institutions,0
+2022,Sarawak,Kabong,All,0
+2022,Sarawak,Kabong,MOH Hospital,0
+2022,Sarawak,Kabong,Non-MOH Hospital,0
+2022,Sarawak,Kabong,Special Medical Institutions,0
+2022,Sarawak,Kanowit,All,100
+2022,Sarawak,Kanowit,MOH Hospital,100
+2022,Sarawak,Kanowit,Non-MOH Hospital,0
+2022,Sarawak,Kanowit,Special Medical Institutions,0
+2022,Sarawak,Kapit,All,134
+2022,Sarawak,Kapit,MOH Hospital,134
+2022,Sarawak,Kapit,Non-MOH Hospital,0
+2022,Sarawak,Kapit,Special Medical Institutions,0
+2022,Sarawak,Kuching,All,1412
+2022,Sarawak,Kuching,MOH Hospital,1074
+2022,Sarawak,Kuching,Non-MOH Hospital,0
+2022,Sarawak,Kuching,Special Medical Institutions,338
+2022,Sarawak,Lawas,All,46
+2022,Sarawak,Lawas,MOH Hospital,46
+2022,Sarawak,Lawas,Non-MOH Hospital,0
+2022,Sarawak,Lawas,Special Medical Institutions,0
+2022,Sarawak,Limbang,All,100
+2022,Sarawak,Limbang,MOH Hospital,100
+2022,Sarawak,Limbang,Non-MOH Hospital,0
+2022,Sarawak,Limbang,Special Medical Institutions,0
+2022,Sarawak,Lubok Antu,All,0
+2022,Sarawak,Lubok Antu,MOH Hospital,0
+2022,Sarawak,Lubok Antu,Non-MOH Hospital,0
+2022,Sarawak,Lubok Antu,Special Medical Institutions,0
+2022,Sarawak,Lundu,All,46
+2022,Sarawak,Lundu,MOH Hospital,46
+2022,Sarawak,Lundu,Non-MOH Hospital,0
+2022,Sarawak,Lundu,Special Medical Institutions,0
+2022,Sarawak,Marudi,All,54
+2022,Sarawak,Marudi,MOH Hospital,54
+2022,Sarawak,Marudi,Non-MOH Hospital,0
+2022,Sarawak,Marudi,Special Medical Institutions,0
+2022,Sarawak,Matu,All,0
+2022,Sarawak,Matu,MOH Hospital,0
+2022,Sarawak,Matu,Non-MOH Hospital,0
+2022,Sarawak,Matu,Special Medical Institutions,0
+2022,Sarawak,Meradong,All,0
+2022,Sarawak,Meradong,MOH Hospital,0
+2022,Sarawak,Meradong,Non-MOH Hospital,0
+2022,Sarawak,Meradong,Special Medical Institutions,0
+2022,Sarawak,Miri,All,349
+2022,Sarawak,Miri,MOH Hospital,349
+2022,Sarawak,Miri,Non-MOH Hospital,0
+2022,Sarawak,Miri,Special Medical Institutions,0
+2022,Sarawak,Mukah,All,80
+2022,Sarawak,Mukah,MOH Hospital,80
+2022,Sarawak,Mukah,Non-MOH Hospital,0
+2022,Sarawak,Mukah,Special Medical Institutions,0
+2022,Sarawak,Pakan,All,0
+2022,Sarawak,Pakan,MOH Hospital,0
+2022,Sarawak,Pakan,Non-MOH Hospital,0
+2022,Sarawak,Pakan,Special Medical Institutions,0
+2022,Sarawak,Pusa,All,0
+2022,Sarawak,Pusa,MOH Hospital,0
+2022,Sarawak,Pusa,Non-MOH Hospital,0
+2022,Sarawak,Pusa,Special Medical Institutions,0
+2022,Sarawak,Samarahan,All,128
+2022,Sarawak,Samarahan,MOH Hospital,0
+2022,Sarawak,Samarahan,Non-MOH Hospital,0
+2022,Sarawak,Samarahan,Special Medical Institutions,128
+2022,Sarawak,Saratok,All,106
+2022,Sarawak,Saratok,MOH Hospital,106
+2022,Sarawak,Saratok,Non-MOH Hospital,0
+2022,Sarawak,Saratok,Special Medical Institutions,0
+2022,Sarawak,Sarikei,All,212
+2022,Sarawak,Sarikei,MOH Hospital,212
+2022,Sarawak,Sarikei,Non-MOH Hospital,0
+2022,Sarawak,Sarikei,Special Medical Institutions,0
+2022,Sarawak,Sebauh,All,0
+2022,Sarawak,Sebauh,MOH Hospital,0
+2022,Sarawak,Sebauh,Non-MOH Hospital,0
+2022,Sarawak,Sebauh,Special Medical Institutions,0
+2022,Sarawak,Selangau,All,0
+2022,Sarawak,Selangau,MOH Hospital,0
+2022,Sarawak,Selangau,Non-MOH Hospital,0
+2022,Sarawak,Selangau,Special Medical Institutions,0
+2022,Sarawak,Serian,All,84
+2022,Sarawak,Serian,MOH Hospital,84
+2022,Sarawak,Serian,Non-MOH Hospital,0
+2022,Sarawak,Serian,Special Medical Institutions,0
+2022,Sarawak,Sibu,All,662
+2022,Sarawak,Sibu,MOH Hospital,662
+2022,Sarawak,Sibu,Non-MOH Hospital,0
+2022,Sarawak,Sibu,Special Medical Institutions,0
+2022,Sarawak,Simunjan,All,42
+2022,Sarawak,Simunjan,MOH Hospital,42
+2022,Sarawak,Simunjan,Non-MOH Hospital,0
+2022,Sarawak,Simunjan,Special Medical Institutions,0
+2022,Sarawak,Song,All,0
+2022,Sarawak,Song,MOH Hospital,0
+2022,Sarawak,Song,Non-MOH Hospital,0
+2022,Sarawak,Song,Special Medical Institutions,0
+2022,Sarawak,Sri Aman,All,92
+2022,Sarawak,Sri Aman,MOH Hospital,92
+2022,Sarawak,Sri Aman,Non-MOH Hospital,0
+2022,Sarawak,Sri Aman,Special Medical Institutions,0
+2022,Sarawak,Subis,All,0
+2022,Sarawak,Subis,MOH Hospital,0
+2022,Sarawak,Subis,Non-MOH Hospital,0
+2022,Sarawak,Subis,Special Medical Institutions,0
+2022,Sarawak,Tanjung Manis,All,0
+2022,Sarawak,Tanjung Manis,MOH Hospital,0
+2022,Sarawak,Tanjung Manis,Non-MOH Hospital,0
+2022,Sarawak,Tanjung Manis,Special Medical Institutions,0
+2022,Sarawak,Tatau,All,0
+2022,Sarawak,Tatau,MOH Hospital,0
+2022,Sarawak,Tatau,Non-MOH Hospital,0
+2022,Sarawak,Tatau,Special Medical Institutions,0
+2022,Sarawak,Tebedu,All,0
+2022,Sarawak,Tebedu,MOH Hospital,0
+2022,Sarawak,Tebedu,Non-MOH Hospital,0
+2022,Sarawak,Tebedu,Special Medical Institutions,0
+2022,Selangor,All Districts,All,7640
+2022,Selangor,All Districts,MOH Hospital,6651
+2022,Selangor,All Districts,Non-MOH Hospital,897
+2022,Selangor,All Districts,Special Medical Institutions,92
+2022,Selangor,Gombak (Rawang),All,3153
+2022,Selangor,Gombak (Rawang),MOH Hospital,2164
+2022,Selangor,Gombak (Rawang),Non-MOH Hospital,897
+2022,Selangor,Gombak (Rawang),Special Medical Institutions,92
+2022,Selangor,Hulu Langat (Bangi),All,1087
+2022,Selangor,Hulu Langat (Bangi),MOH Hospital,1087
+2022,Selangor,Hulu Langat (Bangi),Non-MOH Hospital,0
+2022,Selangor,Hulu Langat (Bangi),Special Medical Institutions,0
+2022,Selangor,Hulu Selangor,All,120
+2022,Selangor,Hulu Selangor,MOH Hospital,120
+2022,Selangor,Hulu Selangor,Non-MOH Hospital,0
+2022,Selangor,Hulu Selangor,Special Medical Institutions,0
+2022,Selangor,Klang,All,1261
+2022,Selangor,Klang,MOH Hospital,1261
+2022,Selangor,Klang,Non-MOH Hospital,0
+2022,Selangor,Klang,Special Medical Institutions,0
+2022,Selangor,Kuala Langat,All,196
+2022,Selangor,Kuala Langat,MOH Hospital,196
+2022,Selangor,Kuala Langat,Non-MOH Hospital,0
+2022,Selangor,Kuala Langat,Special Medical Institutions,0
+2022,Selangor,Kuala Selangor,All,114
+2022,Selangor,Kuala Selangor,MOH Hospital,114
+2022,Selangor,Kuala Selangor,Non-MOH Hospital,0
+2022,Selangor,Kuala Selangor,Special Medical Institutions,0
+2022,Selangor,Petaling (Subang Jaya),All,490
+2022,Selangor,Petaling (Subang Jaya),MOH Hospital,490
+2022,Selangor,Petaling (Subang Jaya),Non-MOH Hospital,0
+2022,Selangor,Petaling (Subang Jaya),Special Medical Institutions,0
+2022,Selangor,Sabak Bernam,All,93
+2022,Selangor,Sabak Bernam,MOH Hospital,93
+2022,Selangor,Sabak Bernam,Non-MOH Hospital,0
+2022,Selangor,Sabak Bernam,Special Medical Institutions,0
+2022,Selangor,Sepang,All,1126
+2022,Selangor,Sepang,MOH Hospital,1126
+2022,Selangor,Sepang,Non-MOH Hospital,0
+2022,Selangor,Sepang,Special Medical Institutions,0
+2022,Terengganu,All Districts,All,1730
+2022,Terengganu,All Districts,MOH Hospital,1730
+2022,Terengganu,All Districts,Non-MOH Hospital,0
+2022,Terengganu,All Districts,Special Medical Institutions,0
+2022,Terengganu,Besut,All,140
+2022,Terengganu,Besut,MOH Hospital,140
+2022,Terengganu,Besut,Non-MOH Hospital,0
+2022,Terengganu,Besut,Special Medical Institutions,0
+2022,Terengganu,Dungun,All,100
+2022,Terengganu,Dungun,MOH Hospital,100
+2022,Terengganu,Dungun,Non-MOH Hospital,0
+2022,Terengganu,Dungun,Special Medical Institutions,0
+2022,Terengganu,Hulu Terengganu,All,95
+2022,Terengganu,Hulu Terengganu,MOH Hospital,95
+2022,Terengganu,Hulu Terengganu,Non-MOH Hospital,0
+2022,Terengganu,Hulu Terengganu,Special Medical Institutions,0
+2022,Terengganu,Kemaman,All,164
+2022,Terengganu,Kemaman,MOH Hospital,164
+2022,Terengganu,Kemaman,Non-MOH Hospital,0
+2022,Terengganu,Kemaman,Special Medical Institutions,0
+2022,Terengganu,Kuala Terengganu,All,1155
+2022,Terengganu,Kuala Terengganu,MOH Hospital,1155
+2022,Terengganu,Kuala Terengganu,Non-MOH Hospital,0
+2022,Terengganu,Kuala Terengganu,Special Medical Institutions,0
+2022,Terengganu,Marang,All,0
+2022,Terengganu,Marang,MOH Hospital,0
+2022,Terengganu,Marang,Non-MOH Hospital,0
+2022,Terengganu,Marang,Special Medical Institutions,0
+2022,Terengganu,Setiu,All,76
+2022,Terengganu,Setiu,MOH Hospital,76
+2022,Terengganu,Setiu,Non-MOH Hospital,0
+2022,Terengganu,Setiu,Special Medical Institutions,0
+2022,W.P. Kuala Lumpur,All Districts,All,4874
+2022,W.P. Kuala Lumpur,All Districts,MOH Hospital,1553
+2022,W.P. Kuala Lumpur,All Districts,Non-MOH Hospital,2437
+2022,W.P. Kuala Lumpur,All Districts,Special Medical Institutions,884
+2022,W.P. Kuala Lumpur,W.P. Kuala Lumpur,All,4874
+2022,W.P. Kuala Lumpur,W.P. Kuala Lumpur,MOH Hospital,1553
+2022,W.P. Kuala Lumpur,W.P. Kuala Lumpur,Non-MOH Hospital,2437
+2022,W.P. Kuala Lumpur,W.P. Kuala Lumpur,Special Medical Institutions,884
+2022,W.P. Labuan,All Districts,All,122
+2022,W.P. Labuan,All Districts,MOH Hospital,122
+2022,W.P. Labuan,All Districts,Non-MOH Hospital,0
+2022,W.P. Labuan,All Districts,Special Medical Institutions,0
+2022,W.P. Labuan,W.P. Labuan,All,122
+2022,W.P. Labuan,W.P. Labuan,MOH Hospital,122
+2022,W.P. Labuan,W.P. Labuan,Non-MOH Hospital,0
+2022,W.P. Labuan,W.P. Labuan,Special Medical Institutions,0
+2022,W.P. Putrajaya,All Districts,All,637
+2022,W.P. Putrajaya,All Districts,MOH Hospital,385
+2022,W.P. Putrajaya,All Districts,Non-MOH Hospital,0
+2022,W.P. Putrajaya,All Districts,Special Medical Institutions,252
+2022,W.P. Putrajaya,W.P. Putrajaya,All,637
+2022,W.P. Putrajaya,W.P. Putrajaya,MOH Hospital,385
+2022,W.P. Putrajaya,W.P. Putrajaya,Non-MOH Hospital,0
+2022,W.P. Putrajaya,W.P. Putrajaya,Special Medical Institutions,252
