@@ -1,0 +1,191 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": [
+        "Education Completion Ranks Across the Nation"
+      ],
+      "subtitle": "Analyzing upper-secondary completion rate from 2016 to 2022",
+      "subtitleColor": "gray",
+      "subtitleFontStyle": "italic",
+      "dy": -10
+    },
+    "width": 650,
+    "height": 400,
+    "data": {
+      "url": "data/cleaned_completion_school_state.csv",
+      "format": {
+        "type": "csv"
+      }
+    },
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Year",
+        "sort": ["2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+        "axis": {
+          "labelAngle": 0
+        }
+      },
+      "y": {
+        "field": "rank",
+        "type": "quantitative",
+        "title": "Rank",
+        "sort": "descending",
+        "scale": {
+          "domain": [0.5, 16.5]
+        }
+      }
+    },
+    "layer": [
+      {
+        "params": [
+          {
+            "name": "select",
+            "select": {
+              "type": "point",
+              "fields": ["state"]
+            }
+          }
+        ],
+        "mark": {
+          "type": "line",
+          "cursor": "pointer",
+          "point": {
+            "filled": false,
+            "fill": "white",
+            "size": 50
+          }
+        },
+        "encoding": {
+          "color": {
+            "field": "state",
+            "legend": null,
+            "scale": {
+              "range": [
+                "#1f77b4",
+                "#ff7f0e",
+                "#2ca02c",
+                "#9467bd",
+                "#8c564b",
+                "#e377c2",
+                "#7f7f7f",
+                "#bcbd22",
+                "#17becf",
+                "#ff9896",
+                "#bab0ac",
+                "#8ad6d0",
+                "#8452bd",
+                "#9c755f",
+                "#5aa24f",
+                "#bea3d5"
+              ]
+            }
+          },
+          "opacity": {
+            "condition": {
+              "param": "select",
+              "value": 1
+            },
+            "value": 0.2
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "dx": 20,
+          "dy": -5,
+          "fontSize": 14,
+          "tooltip": true,
+          "cursor": "pointer"
+        },
+        "transform": [
+          {
+            "filter": "datum.year == '2022'"
+          }
+        ],
+        "encoding": {
+          "text": {
+            "field": "state",
+            "type": "nominal"
+          },
+          "color": {
+            "field": "state",
+            "legend": null,
+            "scale": {
+              "range": [
+                "#1f77b4",
+                "#ff7f0e",
+                "#2ca02c",
+                "#9467bd",
+                "#8c564b",
+                "#e377c2",
+                "#7f7f7f",
+                "#bcbd22",
+                "#17becf",
+                "#ff9896",
+                "#bab0ac",
+                "#8ad6d0",
+                "#8452bd",
+                "#9c755f",
+                "#5aa24f",
+                "#bea3d5"
+              ]
+            }
+          },
+          "x": {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year",
+            "axis": {
+              "labelAngle": 0
+            }
+          },
+          "opacity": {
+            "condition": {
+              "param": "select",
+              "value": 1
+            },
+            "value": 0.2
+          },
+          "tooltip": [
+            {
+              "field": "state",
+              "type": "nominal",
+              "title": "State"
+            },
+            {
+              "field": "completion",
+              "type": "quantitative",
+              "title": "Completion Rate (%)",
+              "format": ",.1f"
+            }
+          ]
+        }
+      }
+    ],
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        },
+        "font": "Arial",
+        "title": {
+            "fontSize": 20,
+            "color": "lightseagreen",
+            "align": "center"
+        },
+        "axis": {
+            "labelFontSize": 12,
+            "titleFontSize": 14
+        },
+        "legend": {
+            "labelFontSize": 12,
+            "titleFontSize": 14
+        }
+    }
+  }
+  

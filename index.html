@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <script src="js/main.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="img/icon.png" style="border-radius: 50%;">
+    <title>Organ Pledges in Malaysia (2022-2023)</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest&family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+<div class="container">
+    <!-- <div id="map"></div> -->
+    <!-- <div id="donut"></div> -->
+    <!-- <div id="bar"></div> -->
+    <!-- <div id="bump"></div> -->
+    <!-- <div id="multibar"></div> -->
+    <!-- <div id="viz_1"></div> -->
+
+    <div class="page">
+
+        <div class="header">
+            <h1>Malaysia's Journey Through Health and Demographics in 2022</h1>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="flex: 1;">
+                    <img src="css/images-3-lungs.png" alt="Lungs Icon" height="100">
+                </div>
+                <div style="flex: 6; text-align: center;">
+                    <p style="font-size: large; line-height: 25px;">
+                        Dive into Malaysia's 
+                        <span style="font-weight: bold; font-size: larger; color: darkorange;">health and demographic landscape in 2022</span> . 
+                        Explore the nation's key health initiatives and demographic 
+                        trends to understand how concerted efforts are improving lives. 
+                        Engage with the data to uncover the impactful stories within.</p>
+                </div>
+                <div style="flex: 1;">
+                    <img src="css/360_F_452186001_iDc8RMc2MehTD4kjyMvvJPE3cVozWHe9-heart.png" alt="Heart Icon" height="150">
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="container-normal">
+            <div class="description description-right">
+                <h2>Mapping the Commitment to Life</h2>
+                <p style="text-align: justify; line-height: 25px; padding-left: 10px; padding-right: 10px;">
+                    In 2022, Malaysia saw a remarkable regional variation in organ donation 
+                    pledges, with <span class="state-good">Selangor</span> 
+                    leading the charge, contributing to the 
+                    <span class="state-good">largest share in pledges</span>
+                    compared to the other states. This data in Selangor 
+                    contrasts sharply with <span class="state-bad">Labuan</span>,
+                    where 
+                    <span class="state-bad">pledges were 155 times less</span>.
+                    Such disparities underline the effectiveness of localized health 
+                    campaigns and possibly the varying degrees of public health education across 
+                    states.
+                </p>
+                <p style="text-align: justify; line-height: 25px; padding-left: 10px; padding-right: 10px; font-style: italic; font-size: small;">
+                    * Interactive filters through selection of segments in the Map and Donut chart. 
+                </p>
+                <br/>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center;" id="viz_1"></div>
+            <br/>
+
+            <div class="description description-right">
+                <p style="text-align: justify; line-height: 25px; padding-left: 10px; padding-right: 10px;">
+                    Gender demographics revealed a nearly balanced ratio, yet with a 
+                    <span class="state-good">slight male predominance</span> 
+                    in several states like 
+                    <span class="state-good">Selangor</span>
+                    and 
+                    <span class="state-good">Johor</span>,
+                    which could influence future health services planning, particularly 
+                    in gender-specific health programs. 
+                </p>
+
+                <p style="text-align: justify; line-height: 25px; padding-left: 10px; padding-right: 10px;">
+                    The demographic further breaksdown by age groups and ethnicity, showing 
+                    youthful skew in states like 
+                    <span class="state-good2">Terengganu</span> 
+                    and 
+                    <span class="state-good2">Sabah</span>,
+                    with 
+                    <span class="state-good2">over 20% </span>
+                    of its population 
+                    <span class="state-good2">under the age of 25</span>,
+                    suggesting a vibrant, growing workforce that could be harnessed for economic growth. 
+                    In contrast, states like 
+                    <span class="state-bad2">Johor</span>
+                    and 
+                    <span class="state-bad2">Kedah</span>
+                    show a 
+                    <span class="state-bad2">higher proportion</span>
+                    of the population 
+                    <span class="state-bad2">over the age of 65</span>,
+                    emphasizing the need for enhanced geriatric care and services.
+                </p>
+            </div>
+            <br/>
+        </div>
+
+
+        <div class="container-normal">
+            <div class="description description-right">
+                <h2>Educational Progress Through Time</h2>
+                <p style="text-align: justify; line-height: 25px; padding-left: 10px; padding-right: 10px;">
+                    From 2016 to 2022, 
+                    <span class="state-good">Putrajaya</span> 
+                    made significant strides in improving its 
+                    upper-secondary completion rates, 
+                    <span class="state-good">jumping from 16th to 1st rank</span>.
+                    Despite its population being better-educated, it 
+                    <span class="state-bad">lacks in donation pledge counts</span>, 
+                    suggesting 
+                    <span class="state-bad">no impactful relationship</span>
+                    between education level and healthcare awareness. 
+                </p>
+                <br/>
+            </div>
+            <br/>
+
+            <div id=bump></div>
+            <br/>
+        </div>
+
+
+        <div class="container-normal">
+            <div class="description description-right">
+                <h2>A Gauge of Healthcare Infrastructure</h2>
+                <p style="text-align: justify; line-height: 25px; padding-left: 10px; padding-right: 10px;">
+                    In 2022, 
+                    <span class="state-good">Kuala Lumpur</span> 
+                    had the 
+                    <span class="state-good">highest ratio</span> 
+                    of hospital beds per capita in private (non-MOH) facilities, 
+                    suggesting 
+                    <span class="state-good">better healthcare access</span>
+                    but also a 
+                    <span class="state-good">potential over-reliance on private healthcare</span>
+                    that may not be affordable for all. 
+                    In contrast, states like 
+                    <span class="state-bad2">Sabah</span>,
+                    with 
+                    <span class="state-bad2">lower bed counts</span>, 
+                    highlight urgent 
+                    <span class="state-bad2">needs for healthcare infrastructure development</span>.
+                </p>
+            </div>
+
+            <div id=multibar style="padding-bottom: 20px"></div>
+            <br/>
+        </div>
+
+    
+        <div class="footer">
+            <h1>Join the Movement</h2>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="flex: 1;">
+                    <img src="css/images-3-lungs.png" alt="Lungs Icon" height="100">
+                </div>
+                <div style="flex: 6; text-align: center;">
+                    <p style="font-size: large; line-height: 25px;">
+                        This isnt just data; it’s a call to action. Each figure, each chart, 
+                        each click brings light to the roles we all play in shaping Malaysia’s 
+                        future. Dive in, explore, and see how you can be part of the solution 
+                        in building a healthier, more educated and more inclusive nation.
+                    </p>
+                </div>
+                <div style="flex: 1;">
+                    <img src="css/360_F_452186001_iDc8RMc2MehTD4kjyMvvJPE3cVozWHe9-heart.png" alt="Heart Icon" height="150">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</html>

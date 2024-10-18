@@ -1,0 +1,214 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 300,
+    "title": {
+        "text": "Population by Gender",
+        "dy": -15
+    },
+    "data": {
+        "url": "data/cleaned_population_state.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "layer": [
+        {
+            "params": [
+                {
+                    "name": "highlight",
+                    "select": {
+                        "type": "point",
+                        "on": "mouseover"
+                    }
+                },
+                {
+                    "name": "select",
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "sex"
+                        ]
+                    }
+                }
+            ],
+            "mark": {
+                "type": "arc",
+                "innerRadius": 50,
+                "cursor": "pointer"
+            },
+            "encoding": {
+                "fillOpacity": {
+                    "condition": {
+                        "param": "select",
+                        "value": 1
+                    },
+                    "value": 0.3
+                },
+                "theta": {
+                    "aggregate": "sum",
+                    "field": "population",
+                    "stack": "normalize"
+                },
+                "color": {
+                    "field": "sex",
+                    "scale": {
+                        "range": [
+                            "#ffb1cb",
+                            "#90d6ff"
+                        ]
+                    }
+                },
+                "strokeWidth": {
+                    "condition": [
+                        {
+                            "param": "select",
+                            "empty": false,
+                            "value": 2
+                        },
+                        {
+                            "param": "highlight",
+                            "empty": false,
+                            "value": 1
+                        }
+                    ],
+                    "value": 0
+                }
+            }
+        },
+        {
+            "data": {
+                "url": "data/cleaned_population_state.csv",
+                "format": {
+                    "type": "csv"
+                }
+            },
+            "transform": [
+                {
+                    "aggregate": [
+                        {
+                            "op": "sum",
+                            "field": "population",
+                            "as": "total_population"
+                        }
+                    ]
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "color": "black",
+                "fontSize": 16,
+                "dy": 5,
+                "fontWeight": "bold"
+            },
+            "encoding": {
+                "text": {
+                    "field": "total_population",
+                    "format": ","
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "color": "white",
+                "fontSize": 13,
+                "dy": -15,
+                "fontWeight": 100,
+                "text": "Total"
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "color": "white",
+                "fontSize": 33,
+                "dx": -80,
+                "fontWeight": "bold",
+                "text": "👦🏻"
+            }
+        },
+        {
+            "data": {
+                "url": "data/cleaned_population_state.csv",
+                "format": {
+                    "type": "csv"
+                }
+            },
+            "transform": [
+                {
+                    "aggregate": [
+                        {
+                            "op": "sum",
+                            "field": "population",
+                            "as": "population_by_male"
+                        }
+                    ],
+                    "groupby": ["sex"]
+                },
+                {
+                    "filter": "datum.sex == 'Male'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "color": "white",
+                "fontSize": 14,
+                "dx": -80,
+                "dy": 30
+            },
+            "encoding": {
+                "text": {
+                    "field": "population_by_male",
+                    "format": ","
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "color": "white",
+                "fontSize": 33,
+                "dx": 80,
+                "fontWeight": "bold",
+                "text": "👩🏻"
+            }
+        },
+        {
+            "data": {
+                "url": "data/cleaned_population_state.csv",
+                "format": {
+                    "type": "csv"
+                }
+            },
+            "transform": [
+                {
+                    "aggregate": [
+                        {
+                            "op": "sum",
+                            "field": "population",
+                            "as": "population_by_female"
+                        }
+                    ],
+                    "groupby": ["sex"]
+                },
+                {
+                    "filter": "datum.sex == 'Female'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "color": "white",
+                "fontSize": 14,
+                "dx": 80,
+                "dy": 30
+            },
+            "encoding": {
+                "text": {
+                    "field": "population_by_female",
+                    "format": ","
+                }
+            }
+        }
+    ]
+}

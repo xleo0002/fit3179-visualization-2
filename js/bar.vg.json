@@ -1,0 +1,68 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 400,
+    "title": {
+        "text": "Population by Age Group and Ethnicity"
+    },
+    "data": {
+        "url": "data/cleaned_population_state.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "transform": [
+        {
+            "aggregate": [
+                {
+                    "op": "sum",
+                    "field": "population",
+                    "as": "total_population"
+                }
+            ],
+            "groupby": [
+                "age",
+                "ethnicity"
+            ]
+        }
+    ],
+    "mark": "bar",
+    "encoding": {
+        "y": {
+            "field": "age",
+            "type": "ordinal",
+            "title": "Age Group"
+        },
+        "x": {
+            "field": "total_population",
+            "type": "quantitative",
+            "title": "Total Population"
+        },
+        "color": {
+            "field": "ethnicity",
+            "type": "nominal",
+            "title": "Ethnicity",
+            "scale": {
+                "scheme": "category10"
+            }
+        },
+        "tooltip": [
+            {
+                "field": "age",
+                "type": "nominal",
+                "title": "Age Group"
+            },
+            {
+                "field": "ethnicity",
+                "type": "nominal",
+                "title": "Ethnicity"
+            },
+            {
+                "field": "total_population",
+                "type": "quantitative",
+                "title": "Total Population",
+                "format": ","
+            }
+        ]
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 700,
+    "height": 350,
+    "data": {
+        "url": "js/ne_10m_admin_1_states_provinces.json",
+        "format": {
+            "type": "topojson",
+            "feature": "ne_10m_admin_1_states_provinces"
+        }
+    },
+    "projection": {
+        "type": "equalEarth"
+    },
+    "title": {
+        "text": [
+            "Organ Donation Pledges in Different States",
+            "in 2022"
+        ],
+        "dy": 0
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "rect",
+                "width": 600,
+                "height": 300,
+                "x": 0,
+                "y": 0,
+                "x2": 700,
+                "y2": 350,
+                "fill": "lightblue"
+            }
+        },
+        {
+            "data": {
+                "url": "js/ne_10m_admin_1_states_provinces.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "ne_10m_admin_1_states_provinces"
+                }
+            },
+            "transform": [
+                {
+                    "calculate": "'Data is not available in ' + datum.properties.name",
+                    "as": "note"
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "fill": "#ddd",
+                "stroke": "white",
+                "strokeWidth": 1
+            },
+            "encoding": {
+                "tooltip": {
+                    "field": "note"
+                }
+            }
+        },
+        {
+            "data": {
+                "url": "js/ne_10m_admin_1_states_provinces.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "ne_10m_admin_1_states_provinces"
+                }
+            },
+            "transform": [
+                {
+                    "calculate": "datum.properties.admin === 'Malaysia' ? 'Malaysia' : 'Other'",
+                    "as": "region"
+                },
+                {
+                    "lookup": "properties.name",
+                    "from": {
+                        "data": {
+                            "url": "data/cleaned_pledges_by_year_state.csv",
+                            "format": {
+                                "type": "csv"
+                            }
+                        },
+                        "key": "state",
+                        "fields": [
+                            "year",
+                            "state",
+                            "total_pledges"
+                        ]
+                    }
+                },
+                {
+                    "filter": "datum.region === 'Malaysia'"
+                },
+                {
+                    "filter": "datum.year == 2022"
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "stroke": "#fff",
+                "strokeWidth": 0.5,
+                "cursor": "pointer"
+            },
+            "params": [
+                {
+                    "name": "select_area",
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "total_pledges"
+                        ]
+                    }
+                }
+            ],
+            "encoding": {
+                "fillOpacity": {
+                    "condition": {
+                        "param": "select_area",
+                        "value": 1
+                    },
+                    "value": 0.2
+                },
+                "color": {
+                    "title": [
+                        "Pledge Count"
+                    ],
+                    "field": "total_pledges",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "threshold",
+                        "domain": [
+                            400,
+                            4000,
+                            8000
+                        ],
+                        "range": [
+                            "#f8ce78",
+                            "#fa9d4f",
+                            "#f05c4d",
+                            "#b71d3e"
+                        ]
+                    },
+                    "legend": {
+                        "format": ",.0f"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "state",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "total_pledges",
+                        "type": "quantitative",
+                        "title": "Total Pledges",
+                        "format": ","
+                    },
+                    {
+                        "field": "year",
+                        "type": "quantitative",
+                        "title": "Year"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+#map {
+    top: -8px;
+    bottom: 100px;
+    height: 400px;
+    width: 1000px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+
+#donut {
+    top: -8px;
+    bottom: 100px;
+    height: 400px;
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+
+#bar {
+    top: -8px;
+    bottom: 100px;
+    height: 400px;
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+
+#bump {
+    top: -8px;
+    bottom: 100px;
+    height: 400px;
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+
+#multibar {
+    top: 27px;
+    bottom: -300px;
+    height: 500px;
+    width: 500px;
+}
+
+body {
+    font-family: 'Arial';
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 0 auto;
+    position: relative;
+    max-width: 800px;
+    background-color: #076964;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.description {
+    text-align: center;
+}
+
+.footer {
+    margin: 0 auto;
+    position: relative;
+    max-width: 800px;
+    background-color: #076964;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.page {
+    position: relative;
+    margin: auto;
+    padding: 50px;
+    padding-top: 35px;
+}
+
+.page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('flat-world-organ-donation-day-vertical-poster-template-with-organs.png');
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.container-normal {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.vega-bind {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 75%;
+    font-family: Arial;
+}
+
+.state-bad {
+    color: #e61414;
+    font-weight: bold;
+    font-size: large;
+}
+
+.state-good {
+    color: #1268a9;
+    font-weight: bold;
+    font-size: large;
+}
+
+.state-bad2 {
+    color: #c2a206;
+    font-weight: bold;
+    font-size: large;
+}
+
+.state-good2 {
+    color: #0caa0e;
+    font-weight: bold;
+    font-size: large;
+}
+
+.shaded {
+    color: #fdcc8a;
+}
+
+.container-images {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #b873333a;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+select {
+    appearance: none;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-family: Arial;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+    width: 100%;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+select:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+select option {
+    font-family: inherit;
+    font-size: 16px;
+    color: #333;
+}
+
+select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 5px;
+    pointer-events: none;
+    color: #555;
+}

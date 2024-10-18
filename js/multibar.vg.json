@@ -1,0 +1,98 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": [
+            "Hospital Bed Distribution"
+        ],
+        "subtitle": "Distributed by state and hospital types",
+        "subtitleColor": "gray",
+        "subtitleFontStyle": "italic",
+        "dy": -10
+    },
+    "data": {
+        "url": "data/cleaned_hospital_beds.csv"
+    },
+    "width": 165,
+    "height": 400,
+    "mark": {
+        "type": "bar",
+        "cornerRadius": 3,
+        "width": {
+            "band": 0.7
+        }
+    },
+    "encoding": {
+        "x": {
+            "field": "state",
+            "type": "nominal",
+            "axis": {
+                "title": "State"
+            }
+        },
+        "y": {
+            "field": "beds",
+            "type": "quantitative",
+            "aggregate": "sum",
+            "axis": {
+                "title": "Number of Beds"
+            }
+        },
+        "color": {
+            "field": "type",
+            "type": "nominal",
+            "legend": {
+                "title": "Hospital Type",
+                "orient": "bottom"
+            }
+        },
+        "column": {
+            "field": "type",
+            "type": "nominal",
+            "header": {
+                "title": "Hospital Type",
+                "titleFontSize": 14,
+                "labelFontSize": 12
+            }
+        },
+        "tooltip": [
+            {
+                "field": "state",
+                "type": "nominal",
+                "title": "State"
+            },
+            {
+                "field": "beds",
+                "type": "quantitative",
+                "title": "Number of Hospital Beds",
+                "format": ","
+            },
+            {
+                "field": "type",
+                "type": "nominal",
+                "title": "Hospital Type"
+            }
+        ]
+    },
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        },
+        "font": "Arial",
+        "title": {
+            "fontSize": 20,
+            "color": "lightseagreen",
+            "align": "center",
+            "anchor": "middle"
+        },
+        "axis": {
+            "labelFontSize": 12,
+            "titleFontSize": 14
+        },
+        "legend": {
+            "labelFontSize": 12,
+            "titleFontSize": 14
+        }
+    }
+}
